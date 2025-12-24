@@ -23,7 +23,6 @@ class PatientCardWidget extends StatelessWidget {
     );
   }
 
-  /// 🩺 ICON BERDASARKAN POLI
   IconData _polyIcon() {
     switch (poly) {
       case 'Umum':
@@ -37,7 +36,6 @@ class PatientCardWidget extends StatelessWidget {
     }
   }
 
-  /// 🎨 WARNA BERDASARKAN POLI (OPSIONAL, TAPI DISARANKAN)
   Color _polyColor() {
     switch (poly) {
       case 'Umum':
