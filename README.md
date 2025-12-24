@@ -1,21 +1,23 @@
 # 🏥 Aplikasi Antrian Pasien (Flutter)
 Aplikasi Antrian Pasien berbasis Flutter untuk menampilkan daftar antrian pasien, data yang dipakai data Dummy dari API Online.
 
+---
 
 ## ✨ Fitur Utama
-📋 Menampilkan list antrian pasien
-🔍 Filter berdasarkan:
-    - Status (All, Menunggu, Diproses, Selesai)
-    - Poli (All, Umum, Gigi, Anak)
-🔄 Pull to Refresh
-⏳ Loading overlay (termasuk saat filter & refresh)
-📭 Empty State jika data kosong
-❌ Error State dengan pesan ramah pengguna
-📡 Offline handling (cek koneksi internet)
-💾 Penyimpanan filter menggunakan GetStorage
-🎨 UI modern (Material Design)
-🧩 Struktur widget modular & scalable
+- 📋 Menampilkan **list antrian pasien**
+- 🔍 Filter berdasarkan:
+  - **Status** (All, Menunggu, Diproses, Selesai)
+  - **Poli** (All, Umum, Gigi, Anak)
+- 🔄 **Pull to Refresh**
+- ⏳ **Loading overlay** (initial load, filter, refresh)
+- 📭 **Empty State** jika data kosong
+- ❌ **Error State** dengan pesan ramah pengguna
+- 📡 **Offline handling**
+- 💾 Penyimpanan filter menggunakan **GetStorage**
+- 🎨 UI modern (Material Design)
+- 🧩 Widget modular & scalable
 
+---
 
 ## 🛠 Teknologi & Package
 - Flutter 3.35.7
