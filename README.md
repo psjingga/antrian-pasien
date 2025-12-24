@@ -27,8 +27,8 @@ Aplikasi Antrian Pasien berbasis Flutter untuk menampilkan daftar antrian pasien
 - Local Storage: get_storage
 
 
-## Contoh API Data
-``` bash
+## 📡 Contoh API Data
+``` json
 [
   {
     "name": "Budi",
