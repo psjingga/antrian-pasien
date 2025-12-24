@@ -11,7 +11,7 @@ Aplikasi Antrian Pasien berbasis Flutter untuk menampilkan daftar antrian pasien
 - 🔄 **Pull to Refresh**
 - ⏳ **Loading overlay** (initial load, filter, refresh)
 - 📭 **Empty State** jika data kosong
-- ❌ **Error State** dengan pesan ramah pengguna
+- ❌ **Error State** dengan pesan user friendly
 - 📡 **Offline handling**
 - 💾 Penyimpanan filter menggunakan **GetStorage**
 - 🎨 UI modern (Material Design)
