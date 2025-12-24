@@ -1,16 +1,25 @@
-# antrian
+# 🏥 Aplikasi Antrian Pasien (Flutter)
+Aplikasi Antrian Pasien berbasis Flutter untuk menampilkan daftar antrian pasien.
 
-A new Flutter project.
 
-## Getting Started
+## ✨ Fitur Utama
+📋 Menampilkan list antrian pasien
+🔍 Filter berdasarkan:
+    - Status (All, Menunggu, Diproses, Selesai)
+    - Poli (All, Umum, Gigi, Anak)
+🔄 Pull to Refresh
+⏳ Loading overlay (termasuk saat filter & refresh)
+📭 Empty State jika data kosong
+❌ Error State dengan pesan ramah pengguna
+📡 Offline handling (cek koneksi internet)
+💾 Penyimpanan filter menggunakan GetStorage
+🎨 UI modern (Material Design)
+🧩 Struktur widget modular & scalable
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Teknologi & Package
+- Flutter 3.35.7
+- State Management: GetX
+- HTTP Client: Dio
+- Internet Checker: internet_connection_checker
+- Local Storage: get_storage
