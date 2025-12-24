@@ -1,5 +1,5 @@
 # 🏥 Aplikasi Antrian Pasien (Flutter)
-Aplikasi Antrian Pasien berbasis Flutter untuk menampilkan daftar antrian pasien.
+Aplikasi Antrian Pasien berbasis Flutter untuk menampilkan daftar antrian pasien, data yang dipakai data Dummy dari API Online.
 
 
 ## ✨ Fitur Utama
@@ -23,3 +23,22 @@ Aplikasi Antrian Pasien berbasis Flutter untuk menampilkan daftar antrian pasien
 - HTTP Client: Dio
 - Internet Checker: internet_connection_checker
 - Local Storage: get_storage
+
+
+## Contoh API Data
+[
+  {
+    "name": "Budi",
+    "status": "Menunggu",
+    "poly": "Umum"
+  },
+  {
+    "name": "Siti",
+    "status": "Diproses",
+    "poly": "Gigi"
+  }
+]
+
+
+## 📄 Lisensi
+Project ini bebas digunakan untuk keperluan pembelajaran dan pengembangan.
