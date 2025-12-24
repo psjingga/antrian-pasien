@@ -28,6 +28,7 @@ Aplikasi Antrian Pasien berbasis Flutter untuk menampilkan daftar antrian pasien
 
 
 ## Contoh API Data
+``` bash
 [
   {
     "name": "Budi",
@@ -40,6 +41,7 @@ Aplikasi Antrian Pasien berbasis Flutter untuk menampilkan daftar antrian pasien
     "poly": "Gigi"
   }
 ]
+```
 
 
 ## 📄 Lisensi
